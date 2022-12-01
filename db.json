@@ -4,7 +4,16 @@
             "id": "3231c3ef-7fcf-4f81-b8ca-dae3e01c9e55",
             "title": "دوره تست نفوذ حرفه ای CPENT",
             "price": "400000",
-            "category": "['آموزش']",
+            "category": [
+                {
+                    "title": "آموزشی",
+                    "path": "/tutorial"
+                },
+                {
+                    "title": "تست نفوذ",
+                    "path": "/hack"
+                }
+            ],
             "teacher": "رضا حسین زاده",
             "length": "23225",
             "create": "1669925711280",
@@ -15,8 +24,17 @@
         {
             "id": "b72657e5-16b1-4764-a285-d29c8670fe8a",
             "title": "کارشناس ارشد تست نفوذ LPT",
-            "price": "499000",
-            "category": "['آموزش']",
+            "price": "4990000",
+            "category": [
+                {
+                    "title": "آموزشی",
+                    "path": "/tutorial"
+                },
+                {
+                    "title": "تست نفوذ",
+                    "path": "/hack"
+                }
+            ],
             "teacher": "رضا حسین زاده",
             "length": "19300",
             "create": "1669925711100",
@@ -28,7 +46,16 @@
             "id": "8919b84e-7442-4b1a-947c-b9eb6b7984f8",
             "title": "CHFI | بازرسی قانونی جرائم رایانه ای",
             "price": "450000",
-            "category": "['آموزش']",
+            "category": [
+                {
+                    "title": "آموزشی",
+                    "path": "/tutorial"
+                },
+                {
+                    "title": "تست نفوذ",
+                    "path": "/hack"
+                }
+            ],
             "teacher": "رضا حسین زاده",
             "length": "22199",
             "create": "1669925711000",
@@ -40,7 +67,16 @@
             "id": "d64210b9-9747-4445-ba97-cb41395be43e",
             "title": "دوره ECSA تحلیل هک قانومند V10",
             "price": "400000",
-            "category": "['آموزش']",
+            "category": [
+                {
+                    "title": "آموزشی",
+                    "path": "/tutorial"
+                },
+                {
+                    "title": "تست نفوذ",
+                    "path": "/hack"
+                }
+            ],
             "teacher": "رضا حسین زاده",
             "length": "31310",
             "create": "1669925701000",
@@ -52,7 +88,16 @@
             "id": "c3fb7397-2b2c-4f9d-8375-29229e55a7c6",
             "title": "Sans 503",
             "price": "380000",
-            "category": "['آموزش']",
+            "category": [
+                {
+                    "title": "آموزشی",
+                    "path": "/tutorial"
+                },
+                {
+                    "title": "تست نفوذ",
+                    "path": "/hack"
+                }
+            ],
             "teacher": "رضا حسین زاده",
             "length": "31310",
             "create": "1669925700000",
@@ -64,7 +109,16 @@
             "id": "b1b4ba31-f68a-43d1-9c5f-729d4c07fcac",
             "title": "امنیت در ویبولتن",
             "price": "30000",
-            "category": "['آموزش']",
+            "category": [
+                {
+                    "title": "آموزشی",
+                    "path": "/tutorial"
+                },
+                {
+                    "title": "تست نفوذ",
+                    "path": "/hack"
+                }
+            ],
             "teacher": "شهاب شمسی",
             "length": "31310",
             "create": "1669925720000",
@@ -76,7 +130,16 @@
             "id": "f966018b-1b96-424d-8318-7c1afaff2ad0",
             "title": "برنامه نویسی C++ مقدماتی",
             "price": "60000",
-            "category": "['آموزش']",
+            "category": [
+                {
+                    "title": "آموزشی",
+                    "path": "/tutorial"
+                },
+                {
+                    "title": "تست نفوذ",
+                    "path": "/hack"
+                }
+            ],
             "teacher": "امیرمحمد روزمه",
             "length": "16800",
             "create": "1669925740000",

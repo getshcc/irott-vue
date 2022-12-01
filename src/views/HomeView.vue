@@ -1,30 +1,29 @@
-<script setup>
-// import vue functions
-import { ref, onMounted } from 'vue';
-// import components
+<script>
 import HeroSection from '../components/HeroSection.vue';
 import ContentsHeader from '../components/ContentsHeader.vue';
+import ProductCard from '../components/ProductCard.vue';
 
-let courses = ref(null)
-let err = ref(null)
-
-onMounted(() => {
-  fetch("http://localhost:3000/courses")
-    .then(res => res.json())
-    .then(data => courses.value = data)
-    .catch(err => err.value = err)
-
-  return { courses, err }
-})
-
-
-
+export default {
+  components: { HeroSection, ContentsHeader, ProductCard },
+  data: () => ({
+    courses: [],
+    homeViewCourses: []
+  }),
+  mounted() {
+    fetch("http://localhost:3000/courses")
+      .then(res => res.json())
+      .then(data => {
+        this.courses = data;
+        this.homeViewCourses = this.courses.slice(-6);
+      })
+      .catch(err => console.log(err))
+  }
+}
 
 </script>
 
 <template>
   <section class="container mx-auto">
-
     <!-- import hero section -->
     <hero-section></hero-section>
 
@@ -53,8 +52,8 @@ onMounted(() => {
           </template>
         </contents-header>
 
-        <main  class="grid grid-cols-3 grid-row-2 gap-8 py-5">
-
+        <main class="grid grid-cols-3 grid-row-2 gap-8 py-5">
+            <product-card v-for="course in homeViewCourses" :key="course.id" :content="course"></product-card>
         </main>
 
       </section>
@@ -68,13 +67,7 @@ onMounted(() => {
 
 <style>
 select {
-  /* for Firefox 
-  -moz-appearance: none;
-  /* for Chrome
-  -webkit-appearance: none; */
   appearance: none;
   background-color: transparent;
 }
-
-/* For IE10 */
 </style>
