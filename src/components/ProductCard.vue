@@ -47,7 +47,7 @@ export default {
 
                 </span>
             </div>
-            <h4 class="font-extrabold text-lg py-2 text-slate-700"><a class="overflow-hidden" href="#post-1">
+            <h4 class="font-extrabold py-2 text-slate-700"><a class="overflow-hidden" href="#post-1">
                     {{ content.title }}
                 </a></h4>
             <div class="split flex justify-between"><a href="#"

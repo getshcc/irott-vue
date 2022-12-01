@@ -52,7 +52,7 @@ export default {
           </template>
         </contents-header>
 
-        <main class="grid grid-cols-3 grid-row-2 gap-8 py-5">
+        <main class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 grid-row-2 gap-8 py-5">
             <product-card v-for="course in homeViewCourses" :key="course.id" :content="course"></product-card>
         </main>
 
