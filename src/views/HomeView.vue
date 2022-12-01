@@ -1,6 +1,25 @@
 <script setup>
+// import vue functions
+import { ref, onMounted } from 'vue';
+// import components
 import HeroSection from '../components/HeroSection.vue';
 import ContentsHeader from '../components/ContentsHeader.vue';
+
+let courses = ref(null)
+let err = ref(null)
+
+onMounted(() => {
+  fetch("http://localhost:3000/courses")
+    .then(res => res.json())
+    .then(data => courses.value = data)
+    .catch(err => err.value = err)
+
+  return { courses, err }
+})
+
+
+
+
 </script>
 
 <template>

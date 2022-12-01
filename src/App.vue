@@ -4,10 +4,10 @@ import MainHeader from './components/MainHeader.vue';
 </script>
 
 <template>
+
   <section>
 
     <!-- import header -->
-
     <main-header>
 
       <!-- import links as slot -->
@@ -34,6 +34,7 @@ import MainHeader from './components/MainHeader.vue';
     <!-- import footer -->
 
   </section>
+
 </template>
 
 <style scoped lang="scss">
