@@ -23,7 +23,6 @@ import MainHeader from './components/MainHeader.vue';
     </nav>
 
     </main-header>
-  
 
     <!-- Router views -->
     <main>

@@ -1,5 +1,5 @@
 <template>
-    <section class="flex flex-col gap-y-6 justify-center py-16 px-5 3xl:px-0">
+    <section class="flex flex-col gap-y-6 justify-center pt-16 pb-24 px-5 3xl:px-0">
         <!-- Main Text -->
         <div>
             <h1 class="bg-gradient-to-b text-transparent bg-clip-text from-[#FF6666] to-[#ff5656] leading-[90px] text-[4.7rem] min-w-[400px] w-auto text-center font-extrabold">
