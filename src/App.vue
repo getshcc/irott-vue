@@ -15,7 +15,7 @@ import MainFooter from './components/MainFooter.vue';
       <nav>
         <ul class="flex items-center gap-x-4">
             <li><router-link :to="{ name: 'home' }">صفحه اصلی</router-link></li>
-            <li><a href="/">دوره ها</a></li>
+            <li><router-link :to="{ name: 'courses' }">دوره ها</router-link></li>
             <li><a href="/">مقالات</a></li>
             <li><a href="/">پادکست ها</a></li>
             <li><a href="/">نقشه راه</a></li>
@@ -35,8 +35,7 @@ import MainFooter from './components/MainFooter.vue';
 
 
     <!-- footer -->
-
-    <main-footer></main-footer>
+      <main-footer></main-footer>
 
   </section>
 
@@ -57,16 +56,3 @@ button {
   font-weight: 800;
 }
 </style>
-
-
-<!-- section {
-  padding: 20px;
-}
-
-nav {
-  padding-bottom: 16px;
-
-  a {
-    margin-right: 14px;
-  }
-} -->
