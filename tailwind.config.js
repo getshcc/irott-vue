@@ -6,10 +6,12 @@ module.exports = {
             fontFamily: {
                 yekan: ["IRANYekan"],
             },
-            fontSize:{
-                xxs: '11px',
-                
-            }
+            fontSize: {
+                xxs: "11px",
+            },
+            backgroundImage: {
+                guide: "url('/guide-section.svg')",
+            },
         },
     },
     plugins: [],

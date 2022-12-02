@@ -148,7 +148,7 @@
             "visible": "true"
         }
     ],
-    "posts": [
+    "articles": [
         {
             "id": "article-1",
             "title": "ده سوال مهم مصاحبه شغلی",
@@ -202,6 +202,112 @@
             "likes": "0",
             "comments": "9",
             "views": "228"
+        }
+    ],
+    "podcasts": [
+        {
+            "id": "pod-1",
+            "title": "شخصیت شناسی هکر های کلاه سفید",
+            "speaker": [
+                {
+                    "name": "Shahahb",
+                    "path": "/users/shahab"
+                }
+            ],
+            "likes": "45",
+            "listens": "120",
+            "comments": "15"
+        },
+        {
+            "id": "pod-2",
+            "title": "شخصیت شناسی هکر های کلاه سیاه",
+            "speaker": [
+                {
+                    "name": "Shahahb",
+                    "path": "/users/shahab"
+                }
+            ],
+            "likes": "45",
+            "listens": "120",
+            "comments": "15"
+        },
+        {
+            "id": "pod-3",
+            "title": "شخصیت شناسی هکر های کلاه خاکستری",
+            "speaker": [
+                {
+                    "name": "Shahab",
+                    "path": "/users/shahab"
+                }
+            ],
+            "likes": "45",
+            "listens": "120",
+            "comments": "15"
+        },
+        {
+            "id": "pod-4",
+            "title": "چگونه متخصص امنیت شویم",
+            "speaker": [
+                {
+                    "name": "amir",
+                    "path": "/users/amir"
+                }
+            ],
+            "likes": "45",
+            "listens": "120",
+            "comments": "15"
+        },
+        {
+            "id": "pod-5",
+            "title": "راهنمای دریافت مدرک CEH",
+            "speaker": [
+                {
+                    "name": "reza",
+                    "path": "/users/reza_hoseinzade"
+                }
+            ],
+            "likes": "45",
+            "listens": "120",
+            "comments": "15"
+        },
+        {
+            "id": "pod-6",
+            "title": "نقشه راه برای تبدیل شدن به یک متخصص شبکه",
+            "speaker": [
+                {
+                    "name": "Shahahb",
+                    "path": "/users/shahab"
+                }
+            ],
+            "likes": "45",
+            "listens": "120",
+            "comments": "15"
+        },
+        {
+            "id": "pod-7",
+            "title": "آشنایی با دوره های CompTIA",
+            "speaker": [
+                {
+                    "name": "Amin",
+                    "path": "/users/amin"
+                }
+            ],
+            "likes": "45",
+            "listens": "120",
+            "comments": "15"
+        },
+        {
+            "id": "pod-8",
+            "title": "سر فصل های مهم CCNP",
+            "speaker": [
+                {
+                    "name": "َAli",
+                    "path": "/users/ali"
+                }
+            ],
+            "likes": "45",
+            "listens": "120",
+            "comments": "15"
         }
     ],
     "users": [

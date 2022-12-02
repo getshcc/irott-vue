@@ -7,7 +7,7 @@ import MainHeader from './components/MainHeader.vue';
 
   <section>
 
-    <!-- import header -->
+    <!-- header -->
     <main-header>
 
       <!-- import links as slot -->
@@ -24,20 +24,27 @@ import MainHeader from './components/MainHeader.vue';
 
     </main-header>
 
-    <!-- Router views -->
+
+    <!-- Router views | main section -->
+
     <main>
       <RouterView />
     </main>
 
 
 
-    <!-- import footer -->
+    <!-- footer -->
 
   </section>
 
 </template>
 
-<style scoped lang="scss">
+<style lang="scss">
+*::selection {
+  background-color: #c8c8c8;
+  color: #323232;
+}
+
 li,
 button {
   display: flex;

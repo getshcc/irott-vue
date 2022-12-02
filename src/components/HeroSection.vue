@@ -2,9 +2,9 @@
     <section class="flex flex-col gap-y-6 justify-center pt-16 pb-24 px-5 3xl:px-0">
         <!-- Main Text -->
         <div>
-            <h1 class="bg-gradient-to-b text-transparent bg-clip-text from-[#FF6666] to-[#ff5656] leading-[90px] text-[4.7rem] min-w-[400px] w-auto text-center font-extrabold">
+            <h1 class="bg-gradient-to-b text-transparent bg-clip-text from-[#FF6666] to-[#ff5656] leading-auto text-[4.7rem] min-w-[400px] w-auto text-center font-extrabold">
                 <span>ورود به دنیای </span>
-                <span>هک و امنیت </span>
+                <span class="bg-[#ff5656] text-white px-4 py-3 text-6xl inline-block ml-4"> "هک و امنیت" </span>
                 <span class="lg:block">با
                     <span class="font-black ">ایران 123</span>
                 </span>
