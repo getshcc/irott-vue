@@ -6,15 +6,15 @@ import ProductCard from '../components/ProductCard.vue';
 export default {
   components: { HeroSection, ContentsHeader, ProductCard },
   data: () => ({
-    courses: [],
-    homeViewCourses: []
+    products: [],
+    homeViewProducts: []
   }),
   mounted() {
     fetch("http://localhost:3000/courses")
       .then(res => res.json())
       .then(data => {
-        this.courses = data;
-        this.homeViewCourses = this.courses.slice(-6);
+        this.products = data;
+        this.homeViewProducts = this.products.slice(-6);
       })
       .catch(err => console.log(err))
   }
@@ -28,7 +28,7 @@ export default {
     <hero-section></hero-section>
 
     <!-- import main contents -->
-    <main class="px-5 3xl:px-0">
+    <main class="flex flex-col gap-y-10 px-5 3xl:px-0">
 
       <!-- Content: Courses -->
       <section >
@@ -53,8 +53,31 @@ export default {
         </contents-header>
 
         <main class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 grid-row-2 gap-8 py-5">
-            <product-card v-for="course in homeViewCourses" :key="course.id" :content="course"></product-card>
+            <product-card v-for="product in homeViewProducts" :key="product.id" :content="product"></product-card>
         </main>
+
+      </section>
+
+      <!-- Content: Posts -->
+
+      <section>
+
+        <contents-header>
+
+          <template v-slot:title>
+            <h2 class="font-black text-2xl">
+              <a href="">مقالات</a>
+            </h2>
+          </template>
+
+          <template v-slot:default>
+            <option value="1">پربازدید ترین</option>
+            <option value="2">جدید ترین</option>
+            <option value="3">قدیمی تر</option>
+            <option value="4">پربحث ترین</option>
+          </template>
+
+        </contents-header>
 
       </section>
       
