@@ -28,7 +28,7 @@ export default {
 <template>
     <section class="container mx-auto py-5 flex flex-col px-5">
     <section class=" grid grid-cols-8 gap-5 min-h-[80vh]">
-        <div class="col-span-2 p-4 flex flex-col gap-y-3">
+        <div class="col-span-2 px-2 flex flex-col gap-y-3">
             <header>
                 <p class="font-extrabold">فیلتر محصولات</p>
             </header>

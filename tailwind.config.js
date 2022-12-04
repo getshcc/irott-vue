@@ -12,6 +12,11 @@ module.exports = {
             backgroundImage: {
                 guide: "url('/guide-section.svg')",
             },
+            colors: {
+                transparent: "transparent",
+                current: "currentColor",
+                red: "#FF5656",
+            },
         },
     },
     plugins: [],

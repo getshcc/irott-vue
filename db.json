@@ -2,7 +2,7 @@
     "courses": [
         {
             "id": "3231c3ef-7fcf-4f81-b8ca-dae3e01c9e55",
-            "title": "دوره تست نفوذ حرفه ای CPENT",
+            "title": "تست نفوذ حرفه ای CPENT",
             "price": "400000",
             "category": [
                 {
@@ -65,7 +65,7 @@
         },
         {
             "id": "d64210b9-9747-4445-ba97-cb41395be43e",
-            "title": "دوره ECSA تحلیل هک قانومند V10",
+            "title": "ECSA تحلیل هک قانومند V10",
             "price": "400000",
             "category": [
                 {
@@ -210,10 +210,11 @@
             "title": "شخصیت شناسی هکر های کلاه سفید",
             "speaker": [
                 {
-                    "name": "Shahahb",
+                    "name": "شهاب",
                     "path": "/users/shahab"
                 }
             ],
+            "length": "00:18:15",
             "likes": "45",
             "listens": "120",
             "comments": "15"
@@ -223,10 +224,11 @@
             "title": "شخصیت شناسی هکر های کلاه سیاه",
             "speaker": [
                 {
-                    "name": "Shahahb",
+                    "name": "شهاب",
                     "path": "/users/shahab"
                 }
             ],
+            "length": "00:09:12",
             "likes": "45",
             "listens": "120",
             "comments": "15"
@@ -236,10 +238,11 @@
             "title": "شخصیت شناسی هکر های کلاه خاکستری",
             "speaker": [
                 {
-                    "name": "Shahab",
+                    "name": "شهاب",
                     "path": "/users/shahab"
                 }
             ],
+            "length": "00:32:11",
             "likes": "45",
             "listens": "120",
             "comments": "15"
@@ -249,10 +252,11 @@
             "title": "چگونه متخصص امنیت شویم",
             "speaker": [
                 {
-                    "name": "amir",
+                    "name": "امیر",
                     "path": "/users/amir"
                 }
             ],
+            "length": "00:12:43",
             "likes": "45",
             "listens": "120",
             "comments": "15"
@@ -262,23 +266,25 @@
             "title": "راهنمای دریافت مدرک CEH",
             "speaker": [
                 {
-                    "name": "reza",
+                    "name": "رضا",
                     "path": "/users/reza_hoseinzade"
                 }
             ],
+            "length": "00:13:19",
             "likes": "45",
             "listens": "120",
             "comments": "15"
         },
         {
             "id": "pod-6",
-            "title": "نقشه راه برای تبدیل شدن به یک متخصص شبکه",
+            "title": "چگونه تبدیل به یک متخصص شبکه شویم",
             "speaker": [
                 {
-                    "name": "Shahahb",
+                    "name": "شهاب",
                     "path": "/users/shahab"
                 }
             ],
+            "length": "00:10:22",
             "likes": "45",
             "listens": "120",
             "comments": "15"
@@ -288,10 +294,11 @@
             "title": "آشنایی با دوره های CompTIA",
             "speaker": [
                 {
-                    "name": "Amin",
+                    "name": "امین",
                     "path": "/users/amin"
                 }
             ],
+            "length": "00:14:01",
             "likes": "45",
             "listens": "120",
             "comments": "15"
@@ -301,10 +308,11 @@
             "title": "سر فصل های مهم CCNP",
             "speaker": [
                 {
-                    "name": "َAli",
+                    "name": "علی",
                     "path": "/users/ali"
                 }
             ],
+            "length": "00:11:21",
             "likes": "45",
             "listens": "120",
             "comments": "15"
